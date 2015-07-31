@@ -1,0 +1,18 @@
+<div class="widget-wrap">
+    <h3 class="widget-title">Links</h3>
+    <div class="widget">
+      <ul>
+        <ul>
+<li><a href="http://zespia.tw/hexo" target="_blank" title="Hexo">Hexo</a></li>
+<li><a href="https://github.com/hexojs/hexo" target="_blank" title="Hexo github">Hexo github</a></li>
+<li><a href="http://zipperary.com/categories/hexo" target="_blank" title="Hexo | Zippera's Blog">Hexo|Zippera's Blog</a></li>
+<li><a href="http://learnyousomeerlang.com/content" target="_blank" title="learnyousameerlang">LearnYouSomeErlang</a></li>
+<li><a href="http://www.erlang.org/" target="_blank" title="erlang.org">Erlang官网</a></li>
+<li><a href="http://blog.yufeng.info" target="_blank" title="yufeng">国内erlang大牛余锋的blog</a></li>
+<li><a href="http://www.cnblogs.com/--00" target="_blank" title="qiuge">Redlink</a></li>
+<li><a href="http://blog.evercoding.net" target="_blank" title="erlang.org">天外天</a></li>
+<li><a href="http://www.neozone.me" target="_blank" title="qiuge">秋哥的blog</a></li>
+    </ul>
+      </ul>
+    </div>
+  </div>
