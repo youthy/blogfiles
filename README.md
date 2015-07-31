@@ -1,4 +1,2 @@
-### My hexoblog original files
-
----------
-    just keep a backup
+# blogfiles
+hexo blog files
