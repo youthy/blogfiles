@@ -64,3 +64,5 @@ erlang中对位数据的处理很简单高效,这也是为什么erlang非常适�
 >  参考:
 [learn you some erlang](http://learnyousomeerlang.com/starting-out-for-real#bit-syntax)
         [Erlang官方文档](http://www.erlang.org/doc/reference_manual/expressions.html#bit_syntax)
+（http://www.cnblogs.com/me-sa/archive/2011/12/25/erlang0024.html）
+（http://www.cnblogs.com/zhongwencool/p/erlang_binary.html）

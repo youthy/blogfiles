@@ -6,7 +6,7 @@ categories: Erlang
 
 记得第一天来实习的时候,我师傅给我展示了一个命令
 ![](http://youthy-picture.qiniudn.com/%E9%80%89%E5%8C%BA_018.png)
-然后耍下一句话:"erlang中的数字是没有大小限制的,它取决于你的内存"
+然后耍下一句话:"**erlang中的数字是没有大小限制的,它取决于你的内存**"
 
 <!--more-->
 
