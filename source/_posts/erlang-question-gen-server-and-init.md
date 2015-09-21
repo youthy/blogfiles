@@ -382,8 +382,8 @@ init_it(Sup, Sup, {local, test}, test, Args, Opts|[]) ->
 
 ### proc_lib
 ```
-init_ack(Sup, Pid|{error, already_exited}) ->
-    Parent ! {ack, self(), Pid}|{error, already_exited}},
+init_ack(Sup, {ok, Pid}|{error, already_exited}) ->
+    Parent ! {ack, self(), {ok, Pid}}|{error, already_exited}},
     ok.
 ```
 
