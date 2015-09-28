@@ -143,8 +143,26 @@ pack-b7cb7743297b04547b0401b940914333ed2d513b.pack                              
 ***将自己的私钥***加入到ssh_agent中：在客户端执行`ssh-add   ~/.ssh/id_rsa`
 否则会出现`Agent admitted failure to sign using the key.` 无法免密码登陆
 
+**有时候github上面自己的项目虽然加入了公钥，但是每次push仍需要密码**
+那是因为这个项目clone时用的时https方式。
+```
+youthy@youthy:~/hexoblog$ git remote -v
+origin	https://github.com/youthy/blogfiles.git (fetch)
+origin	https://github.com/youthy/blogfiles.git (push)
+```
+
+通过`git remote rm origin`的方式删掉在添加ssh方式
+```
+youthy@youthy:~/hexoblog$ git remote add origin git@github.com:youthy/blogfiles.git
+youthy@youthy:~/hexoblog$ git remote -v
+origin	git@github.com:youthy/blogfiles.git (fetch)
+origin	git@github.com:youthy/blogfiles.git (push)
+```
+
+
 ####安全措施：
 以上完成之后参与者都可以通过`ssh test@XXX.XXX.XXX.XXX`登陆我的vps，可以通过以下方式
+
 ```
 [root@li1166-59 ~]# which git-shell
 /usr/bin/git-shell
