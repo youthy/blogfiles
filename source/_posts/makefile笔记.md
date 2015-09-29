@@ -141,4 +141,4 @@ call的变量数量不限。
 * 递归调用make的时候一般使用的是`$(MAKE)`代替make。它的的展开其实就是调用make的路径，比如`/usr/bin/make`
 它有个特点就是不会传递`-t -q -n`参数。详见
 [GUN MAKE variable](http://www.gnu.org/software/make/manual/html_node/MAKE-Variable.html#MAKE-Variable)
-* [make options summary](http://www.gnu.org/software/make/manual/html_node/Options-Summary.html#Options-Summary
+* [make options summary](http://www.gnu.org/software/make/manual/html_node/Options-Summary.html#Options-Summary)
