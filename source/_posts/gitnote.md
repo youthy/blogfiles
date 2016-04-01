@@ -139,7 +139,7 @@ pack-b7cb7743297b04547b0401b940914333ed2d513b.pack                              
 需要将自己的.ssh/id_rsa.pub 公钥加入到test/.ssh/authorize_keys 中，如果没有需要自己建立。没有公钥的话，用
 `ssh-kegen (-t rsa|dsa)` 生成(默认时dsa加密方式)
 但是需要注意以下两点
-***authorize_keys***需要权限是600 `chmod 600 test/.ssh/authorize_keys`
+***authorize_keys***需要权限是600 `chmod 600 test/.ssh/authorized_keys`
 ***将自己的私钥***加入到ssh_agent中：在客户端执行`ssh-add   ~/.ssh/id_rsa`
 否则会出现`Agent admitted failure to sign using the key.` 无法免密码登陆
 
