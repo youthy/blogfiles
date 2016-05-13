@@ -100,7 +100,7 @@ deploy:
   type: git
   repo: 
     github: git@github.com:youthy/youthy.github.io.git,master
-    gitcafe: git@gitcafe.com:youthy/youthy.git,gitcafe-pages
+    #gitcafe: git@gitcafe.com:youthy/youthy.git,gitcafe-pages
     #git@github.com:youthy/youthy.github.io.git,master
     #git@gitcafe.com:youthy/youthy.git,gitcafe-pages
     #github: https://github.com/youthy/youthy.github.io.git,master

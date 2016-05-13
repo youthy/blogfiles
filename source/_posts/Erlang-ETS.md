@@ -9,7 +9,7 @@ toc: true
 <!--more-->
 <!-- toc -->
 
-##创建:
+## 创建:
 #### new/2
 
 > new(Name, Options) -> tid() | atom()
