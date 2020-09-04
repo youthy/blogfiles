@@ -28,7 +28,7 @@
     "live2d-widget-model-miku": "^1.0.5",
     "lunr": "github:mamboer/lunr.js",
     "moment": "^2.22.2",
-    "node-sass": "^4.9.4",
+    "node-sass": "^4.13.1",
     "object-assign": "^4.1.1"
   }
 }
