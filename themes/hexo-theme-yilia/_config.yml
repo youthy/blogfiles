@@ -7,7 +7,7 @@ menu:
 # SubNav
 subnav:
   #github: "#"
-  weibo: "http://weibo.com/1592381215"
+  weibo: "https://weibo.com/1592381215"
   #rss: "#"
   #zhihu: "#"
   #douban: "#"
@@ -49,9 +49,9 @@ tagcloud: true
 #friends: true
 #开启——
 friends:
-  铎哥的博客: http://suexcxine.github.io/
-  秋歌的博客: http://www.neozone.me
-  Ever: http://blog.evercoding.net
+  铎哥的博客: https://suexcxine.github.io/
+  秋歌的博客: https://www.neozone.me
+  Ever: https://blog.evercoding.net
   
 
 #是否开启“关于我”。
